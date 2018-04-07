@@ -1,0 +1,264 @@
+.login-pf body {
+    background: DimGrey none;
+    background-color: #F5F6F8 !important;
+}
+@font-face {
+  font-family: 'Zawgyi-One';
+  src: url('zawgyi.eot');
+  src: local('Zawgyi-One'), url('zawgyi.ttf') format('truetype'), url('zawgyi.woff') format('woff'), url('zawgyi.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+html,body,p,div,*,table
+{
+  font-family: 'Zawgyi-One';
+}
+
+/*#kc-form-login{
+	height: 463px;
+	width : 450px;
+	border: 1px solid #F2F4F9;
+	border-rdius:2px;
+	background-color: #FFFFFF;
+	margin: 0 auto;
+}*/
+
+#kc-form{
+	height: 612px;
+	width: 450px;
+	border: 1px solid #F2F4F9;
+	border-radius: 2px;
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.sign-up-button {
+	height: 50px !important;
+	width: 350px !important;
+	border-radius: 4px !important;
+	background-color: #DB4336 !important;
+	font-size: 20px !important;
+	font-weight: bold !important;
+	line-height: 24px !important;
+	color: #FFFFFF !important;
+	margin-left: 45px;
+}
+.email-label{
+	color: #606060;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 16px;
+	margin-left: 45px;
+	margin-top: 10px;
+}
+.email-text-field{
+	color: #606060;
+	height: 40px;
+	width: 350px;
+	border: 1px solid #5182E8;
+	border-radius: 2px;
+	margin-left: 45px;
+	margin-top: 10px;
+	padding-left: 10px;
+}
+.username-label{
+	color: #606060;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 16px;
+	margin-left: 45px;
+	margin-top: 10px;
+}
+.username-text-field{
+	color: #606060;
+	height: 40px;
+	width: 350px;
+	border: 1px solid #5182E8;
+	border-radius: 2px;
+	margin-left: 45px;
+	margin-top: 10px;
+	padding-left: 10px;
+}
+.password-label{
+	color: #606060;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 16px;
+	margin-left: 45px;
+	margin-top: 10px;
+}
+.password-text-field{
+	color: #606060;
+	height: 40px;
+	width: 350px;
+	border: 1px solid #5182E8;
+	border-radius: 2px;
+	margin-left: 45px;
+	margin-top: 10px;
+	padding-left: 10px;
+}
+.confirm-password-label{
+	color: #606060;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 16px;
+	margin-left: 45px;
+	margin-top: 10px;
+}
+.confirm-password-text-field{
+	color: #606060;
+	height: 40px;
+	width: 350px;
+	border: 1px solid #5182E8;
+	border-radius: 2px;
+	margin-left: 45px;
+	margin-top: 10px;
+	padding-left: 10px;
+}
+.back-to-register-layout {
+	height: 70px;
+	width: 448px;
+	border-radius: 0 0 2px 2px;
+	background-color: #EEEEEE;
+	margin-top: 40px;
+}
+.back-to-register-label {
+	color: #606060;
+	font-size: 14px;
+	line-height: 16px;
+	margin-left:65px;
+	margin-top: 25px;
+}
+.sign-in-span {
+	color: #DB4336;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 21px;
+	margin-left: 10px;
+}
+.create-layout{
+	height: 70px;
+	width: 448px;
+	border-radius: 0 0 2px 2px;
+	border: 1px solid #F2F4F9;
+}
+.create-label{
+	height: 70px;
+	width: 448px;
+	color: #606060;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 24px;
+	margin-top: 25px;
+	text-align: center;
+}
+#header-layout {
+	height: 60px;
+	background-color: #DB4336;
+}
+#header-layout label{
+	cursor: pointer !important;
+}
+.sm-eloan-logo-label{
+	color: #FFFFFF;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 28px;
+	margin-left: 2%;
+	margin-top: 15px;
+}
+.language-dropdown{
+	color: #FFFFFF;
+	float: right;
+	margin-top: 15px;
+	font-size: 12px;
+	margin-right: 2%;
+}
+.feedback-color{
+	color: black;
+}
+.login-layout{
+	height: 70px;
+	width: 448px;
+	border-radius: 0 0 2px 2px;
+	border: 1px solid #F2F4F9;
+}
+.login-label{
+	height: 70px;
+	width: 448px;
+	color: #606060;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 24px;
+	margin-top: 25px;
+	text-align: center;
+}
+.username-email-label{
+	color: #606060;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 16px;
+	margin-left: 45px;
+	margin-top: 10px;
+}
+.username-email-text-field{
+	color: #606060;
+	height: 40px;
+	width: 350px;
+	border: 1px solid #5182E8;
+	border-radius: 2px;
+	margin-left: 45px;
+	margin-top: 10px;
+	padding-left: 10px;
+}
+.login-password-label{
+	color: #606060;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 16px;
+	margin-left: 45px;
+	margin-top: 10px;
+}
+.login-password-text-field{
+	color: #606060;
+	height: 40px;
+	width: 350px;
+	border: 1px solid #5182E8;
+	border-radius: 2px;
+	margin-left: 45px;
+	margin-top: 10px;
+	padding-left: 10px;
+}
+.login-button {
+	height: 50px !important;
+	width: 350px !important;
+	border-radius: 4px !important;
+	background-color: #DB4336 !important;
+	font-size: 20px !important;
+	font-weight: bold !important;
+	line-height: 24px !important;
+	color: #FFFFFF !important;
+	margin-left: 25px;
+}
+.forget-password-span{
+	float: right;
+}
+.noaccount-span{
+	color: #606060;
+	font-size: 14px;
+	line-height: 16px;
+	margin-left: 45px;
+	margin-top: 25px;
+}
+.hide-layout{
+	background-color: #F5F6F8;
+	height: 200px;
+	width: 460px;
+}
+.back-to-register-button{
+	color: #DB4336;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 16px;
+	margin-left: 45px;
+}

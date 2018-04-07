@@ -1,0 +1,97 @@
+2018-03-26 10:41:49,057 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.1.Final
+2018-03-26 10:41:51,374 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2018-03-26 10:41:51,453 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: Keycloak 3.2.1.Final (WildFly Core 2.0.10.Final) starting
+2018-03-26 10:41:51,454 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = D:\Chivon\spring-boot-key-cloak\keycloak-3.2.1.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_131\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_131\jre
+	java.io.tmpdir = C:\Users\CHHAIC~1\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin;C:\Users\ChhaiChivon\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Python27;C:\Program Files\MongoDB\Server\3.4\bin;C:\play-2.5.4\bin;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\GitExtensions\;C:\Program Files\erl9.2\bin;C:\Program Files\RabbitMQ Server\rabbitmq_server-3.7.3\sbin;C:\apache-maven-3.5.2\bin;C:\Users\c.chhai\AppData\Local\Android\Sdk\tools;C:\Users\c.chhai\AppData\Local\Android\Sdk\platform-tools?;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Docker Toolbox;C:\Users\ChhaiChivon\AppData\Local\Microsoft\WindowsApps;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_131-b11
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_131
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.131-b11
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = D:\Chivon\spring-boot-key-cloak\keycloak-3.2.1.Final
+	jboss.host.name = d-dpvn7c21
+	jboss.modules.dir = D:\Chivon\spring-boot-key-cloak\keycloak-3.2.1.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = d-dpvn7c21
+	jboss.qualified.host.name = d-dpvn7c21
+	jboss.server.base.dir = D:\Chivon\spring-boot-key-cloak\keycloak-3.2.1.Final\standalone
+	jboss.server.config.dir = D:\Chivon\spring-boot-key-cloak\keycloak-3.2.1.Final\standalone\configuration
+	jboss.server.data.dir = D:\Chivon\spring-boot-key-cloak\keycloak-3.2.1.Final\standalone\data
+	jboss.server.deploy.dir = D:\Chivon\spring-boot-key-cloak\keycloak-3.2.1.Final\standalone\data\content
+	jboss.server.log.dir = D:\Chivon\spring-boot-key-cloak\keycloak-3.2.1.Final\standalone\log
+	jboss.server.name = d-dpvn7c21
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = D:\Chivon\spring-boot-key-cloak\keycloak-3.2.1.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:D:\Chivon\spring-boot-key-cloak\keycloak-3.2.1.Final\standalone\configuration/logging.properties
+	module.path = D:\Chivon\spring-boot-key-cloak\keycloak-3.2.1.Final\modules
+	org.jboss.boot.log.file = D:\Chivon\spring-boot-key-cloak\keycloak-3.2.1.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_131\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_131\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = D:\Chivon\spring-boot-key-cloak\keycloak-3.2.1.Final\jboss-modules.jar -mp D:\Chivon\spring-boot-key-cloak\keycloak-3.2.1.Final\modules org.jboss.as.standalone -Djboss.home.dir=D:\Chivon\spring-boot-key-cloak\keycloak-3.2.1.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp437
+	sun.stdout.encoding = cp437
+	user.country = US
+	user.dir = C:\Windows\System32
+	user.home = C:\Users\ChhaiChivon
+	user.language = en
+	user.name = Admin
+	user.script = 
+	user.timezone = Asia/Bangkok
+	user.variant = 
+2018-03-26 10:41:51,456 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Dorg.jboss.boot.log.file=D:\Chivon\spring-boot-key-cloak\keycloak-3.2.1.Final\standalone\log\server.log -Dlogging.configuration=file:D:\Chivon\spring-boot-key-cloak\keycloak-3.2.1.Final\standalone\configuration/logging.properties 
+2018-03-26 10:41:57,425 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2018-03-26 10:41:57,460 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.3.4.Final
+2018-03-26 10:41:57,463 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.3.4.Final
